@@ -1,6 +1,12 @@
 @font-face {
   font-family: "Roboto";
   font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Roboto-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   src: url(../fonts/Roboto-Regular.woff) format("woff");
 }
@@ -21,6 +27,7 @@
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
@@ -46,8 +53,35 @@ a {
   margin: 0 auto;
 }
 
-.header {
+.btn {
   padding: 30px 0;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+}
+.btn-text {
+  margin-left: 20px;
+  margin-right: 21px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.btn-arrow-img {
+  margin-right: 54px;
+  max-width: 24px;
+  max-height: 24px;
+  width: auto;
+  height: auto;
+}
+.btn:hover {
+  background-color: #ED5500;
+}
+
+.header {
+  padding: 30px 0 16px;
 }
 .header__wrap {
   display: flex;
@@ -99,6 +133,44 @@ a {
 }
 .header__nav-link:hover:before, .header__nav-link:hover:after {
   width: 100%;
+}
+
+.main-project {
+  padding: 16px 0 60px;
+}
+.main-project__wrap {
+  display: flex;
+  flex-direction: row;
+}
+.main-project-text-box {
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-project-img-box {
+  position: relative;
+  width: 66%;
+  height: 830px;
+}
+.main-project-img-box-btn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.main-project-title1, .main-project-title2 {
+  display: block;
+  font-size: 64px;
+  line-height: 1;
+}
+.main-project-title1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #ED5500;
+}
+.main-project-title2 {
+  font-weight: 700;
+  color: #333333;
 }
 
 /*# sourceMappingURL=style.css.map */

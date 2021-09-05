@@ -1,0 +1,45 @@
+.main-project {
+    padding: 16px 0 60px;
+
+    &__wrap {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &-text-box {
+        width: 34%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &-img-box {
+        position: relative;
+        width: 66%;
+        height: 830px;
+
+        &-btn {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+    }
+
+    &-title1,
+    &-title2 {       
+        display: block;
+        font-size: 64px;
+        line-height: 1;
+    }
+
+    &-title1 {
+        font-weight: 300;
+        text-transform: uppercase;
+        color: $primary-color;
+    }
+
+    &-title2 {
+        font-weight: 700;    
+        color: $gray1-color;
+    }
+}
