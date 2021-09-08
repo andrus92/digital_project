@@ -22,6 +22,12 @@
   font-weight: 700;
   src: url(../fonts/Roboto-Bold.woff) format("woff");
 }
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/Roboto-Black.woff) format("woff");
+}
 * {
   box-sizing: border-box;
 }
@@ -228,6 +234,44 @@ a {
 }
 .about__btn {
   width: 50%;
+}
+
+.main-focus {
+  padding: 60px 0 60px;
+}
+.main-focus__title {
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 300;
+  color: #ED5500;
+}
+.main-focus__wrap {
+  display: flex;
+  margin: 0 -90px;
+}
+.main-focus__box {
+  width: 50%;
+  padding: 0 90px;
+  display: flex;
+}
+.main-focus__num {
+  display: block;
+  width: 25%;
+  margin-right: 30px;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 1.17;
+  color: #F2F2F2;
+}
+.main-focus__text {
+  display: block;
+  width: 75%;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.63;
+  color: #333333;
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
