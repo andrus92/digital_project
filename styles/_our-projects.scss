@@ -1,0 +1,56 @@
+.our-projects {
+
+    padding: 60px 0 60px;
+    
+    &__title {
+        font-weight: 300;
+        font-size: 64px;
+        line-height: 1;
+        color: $primary-color;
+        margin-bottom: 60px;
+        display: block;
+    }
+
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__box {
+        width: 50%;
+        padding: 15px;
+        border: 1px solid red;
+        
+
+
+        &--left {
+            width: 25%;
+        }
+
+        &--middle {
+            width: 42%;
+        }
+
+        &--right {
+            width: 33%;
+        }
+    }
+
+    &__card {
+        border: 1px solid green;
+        height: 255px;
+        background-size: cover;
+
+        &__text {
+            color: $white-color;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 1;
+        }
+    }
+
+    &__btns { 
+        display: flex;
+        justify-content: flex-end;
+    }
+}

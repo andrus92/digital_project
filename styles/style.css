@@ -85,6 +85,12 @@ a {
 .btn:hover {
   background-color: #ED5500;
 }
+.btn--dark {
+  background-color: #333333;
+}
+.btn--dark .btn-text {
+  color: #FFF;
+}
 
 .header {
   padding: 30px 0 16px;
@@ -233,7 +239,7 @@ a {
   margin-bottom: 20px;
 }
 .about__btn {
-  width: 50%;
+  display: inline-block;
 }
 
 .main-focus {
@@ -272,6 +278,51 @@ a {
   color: #333333;
   display: flex;
   align-items: center;
+}
+
+.our-projects {
+  padding: 60px 0 60px;
+}
+.our-projects__title {
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 1;
+  color: #ED5500;
+  margin-bottom: 60px;
+  display: block;
+}
+.our-projects__wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.our-projects__box {
+  width: 50%;
+  padding: 15px;
+  border: 1px solid red;
+}
+.our-projects__box--left {
+  width: 25%;
+}
+.our-projects__box--middle {
+  width: 42%;
+}
+.our-projects__box--right {
+  width: 33%;
+}
+.our-projects__card {
+  border: 1px solid green;
+  height: 255px;
+  background-size: cover;
+}
+.our-projects__card__text {
+  color: #FFF;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1;
+}
+.our-projects__btns {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /*# sourceMappingURL=style.css.map */
