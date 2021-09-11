@@ -491,4 +491,66 @@ a {
   text-align: center;
 }
 
+.contact-info {
+  padding: 25px 0 60px;
+}
+.contact-info__wrap {
+  display: flex;
+  flex-direction: row;
+}
+.contact-info__text {
+  width: 45%;
+  padding-right: 177px;
+}
+.contact-info__text__title1, .contact-info__text__title2 {
+  display: block;
+  font-size: 64px;
+  line-height: 1;
+}
+.contact-info__text__title1 {
+  color: #ED5500;
+  font-weight: 300;
+}
+.contact-info__text__title2 {
+  color: #333333;
+  font-weight: 700;
+  margin-bottom: 34px;
+}
+.contact-info__text__comp-name, .contact-info__text__comp-geo {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+}
+.contact-info__text__comp-geo {
+  margin-bottom: 53px;
+}
+.contact-info__text__comp-addr, .contact-info__text__comp-email {
+  display: block;
+  color: #333333;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.contact-info__text__comp-addr {
+  margin-bottom: 44px;
+}
+.contact-info__text__comp-email {
+  margin-bottom: 33px;
+}
+.contact-info__text__btns {
+  display: flex;
+  flex-grow: 1;
+}
+.contact-info__map {
+  width: 55%;
+  font-weight: 300;
+}
+.contact-info__img {
+  max-height: 500px;
+  max-width: auto;
+  height: 100%;
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

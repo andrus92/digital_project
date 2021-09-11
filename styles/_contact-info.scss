@@ -1,0 +1,77 @@
+.contact-info {
+    padding: 25px 0 60px;
+
+    &__wrap {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__text {
+        width: 45%;
+        padding-right: 177px;
+
+        &__title1,
+        &__title2 {
+            display: block;
+            font-size: 64px;
+            line-height: 1;
+        }
+
+        &__title1 {
+            color: $primary-color;
+            font-weight: 300;
+        }
+
+        &__title2 {
+            color: $gray1-color;
+            font-weight: 700;
+            margin-bottom: 34px;
+        }
+
+        &__comp-name,
+        &__comp-geo {
+            display: block;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 1.16;
+        }
+
+        &__comp-geo {
+            margin-bottom: 53px;
+        }
+
+        &__comp-addr,
+        &__comp-email {
+            display: block;
+            color: $gray1-color;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 1.18;
+        }
+
+        &__comp-addr {
+            margin-bottom: 44px;
+        }
+
+        &__comp-email {
+            margin-bottom: 33px;
+        }
+
+        &__btns {
+            display: flex;
+            flex-grow: 1;
+        }
+    }
+
+    &__map {
+        width: 55%;
+        font-weight: 300;
+    }
+
+    &__img {
+        max-height: 500px;
+        max-width: auto;
+        height: 100%;
+        width: 100%;
+    }
+}
