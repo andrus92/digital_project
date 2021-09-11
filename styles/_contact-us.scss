@@ -1,0 +1,80 @@
+.contact-us {
+    padding: 60px 0;
+
+    &__title {
+        color: $gray4-color;
+        font-weight: 300;
+        font-size: 64px;
+        line-height: 1;
+        display: block;
+        margin-bottom: 22px;
+    }
+
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 77px;
+    }
+
+    &__form {
+        padding-right: 30px;
+        width: 33%;
+        border: 1px solid green;
+        display: flex;
+        flex-direction: column;
+
+        & input {
+            width: 100%;
+            padding: 15px 21px;
+            margin-bottom: 10px;
+            border: 1px solid $gray1-color;
+            transition: $main-transition;
+            position: relative;
+
+            &::placeholder {
+                // position: absolute;
+                color: $dim-color;
+                font-size: 14px;
+                line-height: 1.14;
+                letter-spacing: 0.04em;
+            }
+
+
+            &:hover {
+                border: 1px solid $primary-color;
+            }
+        }
+
+        & input:last-child {
+            margin-bottom: 0;
+            flex-grow: 1;
+        }
+
+        &__message input {
+            border: 1px solid red;
+        }
+        &__message input {
+            height: 100%;
+        }
+    }
+
+    &__pic {
+        width: 67%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        &__img {
+            max-width: 749px;
+            max-height: 369px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__btns { 
+        display: flex;
+        justify-content: flex-start;
+    }
+}
