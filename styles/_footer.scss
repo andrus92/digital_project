@@ -1,0 +1,125 @@
+.footer {
+
+    margin-top: 60px;
+    padding: 58px 0 24px;
+
+    background-color: $gray1-color;
+    &__wrap {
+        padding-bottom: 60px;
+        border-bottom: 1px solid rgba($white-color, 0.1);
+        display: flex;
+    }
+
+    &__logo {
+        width: 20%;
+
+        &__img {
+            max-width: 118px;
+            max-height: 94px;
+            width: auto;
+            height: auto;
+        }
+
+    }
+    
+
+    &__info {
+        width: 20%;
+
+        &__title {
+            color: $white-color;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 1.18;
+            display: block;
+            margin-bottom: 20px;
+
+        }
+
+        &__list {
+
+            &-item {
+                margin-bottom: 11px;
+                color: $white-color;
+            }
+
+            &-item:last-child {
+                margin-bottom: 0;
+            }
+
+            &-item a {
+                color: $white-color;
+                font-size: 13px;
+                line-height: 1.5;
+            }
+        }
+    }
+
+    &__contacts {
+        width: 50%;
+
+        &__title {
+            color: $white-color;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 1.18;
+            display: block;
+            margin-bottom: 19px;
+        }
+
+        &__list {
+            width: 40%;
+
+            &-item {
+                margin-bottom: 32px;
+                color: $white-color;
+
+                display: flex;
+                flex-direction: row;
+            }
+
+            &-item:last-child {
+                margin-bottom: 0;
+            }
+
+            &-item i {
+                padding-right: 14px;
+            }
+
+            &-item a {
+                color: $white-color;
+                font-size: 13px;
+                line-height: 1.5;
+            }
+        }
+    }
+
+    &__media {
+        width: 10%;
+
+        &__title {
+            color: $white-color;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 1.18;
+            display: block;
+            margin-bottom: 25px;
+        }
+
+        &__icons {
+            letter-spacing: 2px;
+            color: $white-color;
+
+            & a {
+                color: $white-color;    
+            }
+        }
+    }
+
+    &__copyright {
+        display: block;
+        margin: 24px;
+        color: rgba(200, 200, 200, 0.5);
+        text-align: center;
+    }
+}
