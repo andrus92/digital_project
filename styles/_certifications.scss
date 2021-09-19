@@ -1,0 +1,18 @@
+.certifications {
+    &__title {
+        
+        display: block;
+        font-size: 64px;
+        line-height: 1;
+
+        &--top {
+            font-weight: 300;
+            color: $primary-color;
+        }
+
+        &--bottom {
+            font-weight: 700;
+            margin-bottom: 50px;
+        }
+    }
+}

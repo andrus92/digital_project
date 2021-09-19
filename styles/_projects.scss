@@ -1,0 +1,60 @@
+.projects {
+    &__title {
+        display: block;
+        font-size: 64px;
+        line-height: 1;
+
+        &--top {
+            font-weight: 300;
+            color: $primary-color;
+        }
+        &--bottom {
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+    }
+
+    &__box {
+        display: flex;
+        padding: 15px 0;
+    }
+
+    &__img {
+        max-width: 670px;
+        max-height: 435px;
+        width: auto;
+        height: auto;  
+    }
+
+    &__text-box {
+        position: relative;
+        padding: 30px;
+        background-color: $gray6-color;
+
+        &__title {
+            color: $primary-color;
+            font-weight: 300;
+            font-size: 40px;
+            line-height: 1.17;
+            display: block;
+            margin-bottom: 73px;
+        }
+
+        &__txt {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 1.56;
+        }
+
+        &__btns {
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        
+    }
+
+
+}

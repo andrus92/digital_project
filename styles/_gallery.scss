@@ -1,0 +1,36 @@
+.gallery {
+
+    &__title {
+        display: block;
+        font-size: 64px;
+        line-height: 1;
+
+        &--top {
+            font-weight: 300;
+            color: $primary-color
+        }
+
+        &--bottom {
+            font-weight: 700;
+            margin-bottom: 61px;
+        }
+    }
+
+
+    &__pics-wrap {
+        border-top: 1px solid $gray6-color;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+    }
+
+    &__pics-box {
+        width: 20%;
+        padding: 15px;
+    }
+
+    &__pic {
+        height: 260px;
+        background-size: cover;
+    }
+}

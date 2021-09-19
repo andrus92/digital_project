@@ -19,7 +19,6 @@
     &__box {
         width: 50%;
         padding: 15px;
-        border: 1px solid red;
         
         &--left {
             width: 25%;
@@ -35,7 +34,6 @@
     }
 
     &__card {
-        border: 1px solid green;
         height: 255px;
         background-size: cover;
 

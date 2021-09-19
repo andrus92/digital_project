@@ -19,7 +19,6 @@
     &__form {
         padding-right: 30px;
         width: 33%;
-        border: 1px solid green;
         display: flex;
         flex-direction: column;
 
@@ -32,7 +31,6 @@
             position: relative;
 
             &::placeholder {
-                // position: absolute;
                 color: $dim-color;
                 font-size: 14px;
                 line-height: 1.14;
